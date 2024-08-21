@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# npm and yarn specific
+package-lock.json
+yarn.lock
+.pnpmfile.cjs
+
+# TypeScript specific
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Browserstack config file
+browserstack.yml
+
+# Android APK files
+*.apk
+
+# iOS IPA files
+*.ipa
+
+# macOS app bundles
+*.app
