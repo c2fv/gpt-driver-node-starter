@@ -13,7 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "gpt-driver-node": "^1.0.0-alpha.5",
+    "gpt-driver-node": "^1.0.0-alpha.6",
     "selenium-webdriver": "^4.23.0"
   },
   "devDependencies": {
