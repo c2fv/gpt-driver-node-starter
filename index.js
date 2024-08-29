@@ -80,7 +80,6 @@ const main = async () => {
         }
     });
 
-    await gptDriver.startSession();
     await gptDriver.execute("tap on youtube");
     await gptDriver.setSessionStatus("success");
 }
