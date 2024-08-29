@@ -75,14 +75,14 @@ const main = async () => {
         // Option 2) point to browserStack appium server
         // severConfig: {url: browserstackAppiumServerUrl}
         // Option 3) point to local appiumServer
-        severConfig: {
+        serverConfig: {
             url: localAppiumServerUrl,
         }
     });
 
     await gptDriver.startSession();
     await gptDriver.execute("tap on youtube");
-    await gptDriver.stopSession("success")
+    await gptDriver.setSessionStatus("success");
 }
 
 await main();
