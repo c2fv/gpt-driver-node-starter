@@ -18,7 +18,7 @@
     "@wdio/cli": "^9.0.7",
     "@wdio/local-runner": "^9.0.7",
     "@wdio/mocha-framework": "^9.0.6",
-    "gpt-driver-node": "^1.0.0-alpha.13",
+    "gpt-driver-node": "^1.0.0-alpha.14",
     "selenium-webdriver": "^4.23.0",
     "webdriverio": "^9.0.7"
   },
