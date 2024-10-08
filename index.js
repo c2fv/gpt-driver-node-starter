@@ -75,6 +75,8 @@ const main = async () => {
         // Option 2) point to browserStack appium server
         // severConfig: {url: browserstackAppiumServerUrl}
         // Option 3) point to local appiumServer
+        // severConfig: {url: localAppiumServerUrl}
+        // GptDriverCloud params
         // useGptDriverCloud: true,
         // buildId: "<build-id>",
         serverConfig: {
